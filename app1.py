@@ -13,7 +13,7 @@ def recommend(movie):
     return recommended_movies
 
 
-similarity = pickle.load(open('similarity1.pkl', 'rb'))
+similarity = pickle.load(open('https://github.com//Saikrishna2505//movie-app//blob//main//similarity1.pkl', 'rb'))
 
 movies_dict = pickle.load(open('movieslist.pkl', 'rb'))
 
